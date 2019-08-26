@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Castellfollit.jpg
+map_Kd Castellfollit_CNLow.jpg
 
 newmtl material0_NONE
 Ns 199.999976
@@ -21,4 +21,4 @@ Ke 0.0 0.0 0.0
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd Castellfollit.jpg
+map_Kd Castellfollit_CNLow.jpg
