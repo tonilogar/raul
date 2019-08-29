@@ -110,12 +110,12 @@ function initialize()
 	////////////////////////////////////////////////////////////
 	// setup markerRoots
 	////////////////////////////////////////////////////////////
-    sentinelDeca();
+    barcelona();
+	sentinelDeca();
 	focSentinel();
 	castellFollit();
 	badalona();
 	deltaVideo();
-	//barcelona();
 }
 
 function sentinelDeca()
@@ -140,12 +140,12 @@ function sentinelDeca()
 	
 	new THREE.MTLLoader()
 		.setPath( 'models/' )
-		.load( 'barcelonaDecimate_4.mtl', function ( materials ) {
+		.load( 'sentinelDeca.mtl', function ( materials ) {
 			materials.preload();
 			new THREE.OBJLoader()
 				.setMaterials( materials )
 				.setPath( 'models/' )
-				.load( 'barcelonaDecimate_4.obj', function ( group ) {
+				.load( 'sentinelDeca.obj', function ( group ) {
 					mesh0 = group.children[0];
 					mesh0.material.side = THREE.DoubleSide;
 					mesh0.position.y = 0.25;
